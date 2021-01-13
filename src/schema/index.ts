@@ -1,7 +1,7 @@
 
 import {  makeExecutableSchema } from 'graphql-tools';
 import { GraphQLSchema } from 'graphql';
-import 'graphql-import-node';
+import 'graphql-import-node'; // para importar los modulos .graphql
 import typeDefs from './schema.graphql'
 import resolvers from '../resolvers/resolversMap'
 
